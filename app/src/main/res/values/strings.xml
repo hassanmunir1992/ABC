@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ABC</string>
+    <string name="fajr">Fajar</string>
+    <string name="zuhar">Zuhar</string>
+    <string name="asar">Asar</string>
+    <string name="maghrab">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="jumah">Jummah</string>
+    <string name="enable">enable</string>
+
+    <string name="msg_namaz">Set Namaz Message</string>
+    <string name="icon_edit">&#xf044;</string>
+    <string name="save_namaz_message">Save Namaz Message</string>
+    <string name="enable_namaz_msg">Enable namaz message</string>
+    <string name="save_message">Save Message</string>
+    <string name="save_custom_message">Save Custom Message</string>
+    <string name="save_namaz_time">Save Namaz Time</string>
+    <string name="save_vibrate_time">Save Vibrate Time</string>
+    <string name="save_time">Save Time</string>
+
+</resources>
