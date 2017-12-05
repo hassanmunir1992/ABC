@@ -79,15 +79,15 @@ public class SettingsFragment extends BaseFragment {
 
         SettingFetcher settingFetcher = new SettingFetcher(this,getActivity());
 
-        LiveData<List<Setting>> settingLiveData = settingFetcher.getSettings();
-
-        settingLiveData.observe(this, new Observer<List<Setting>>() {
-            @Override
-            public void onChanged(@Nullable List<Setting> settings) {
-                if(!settings.isEmpty())
-                    setting=settings.get(0);
-            }
-        });
+//        LiveData<List<Setting>> settingLiveData = settingFetcher.getSettings();
+//
+//        settingLiveData.observe(this, new Observer<List<Setting>>() {
+//            @Override
+//            public void onChanged(@Nullable List<Setting> settings) {
+//                if(!settings.isEmpty())
+//                    setting=settings.get(0);
+//            }
+//        });
     }
 
     private void prepareview(View view){
